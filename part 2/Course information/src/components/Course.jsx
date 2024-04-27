@@ -1,6 +1,6 @@
   const Header = ({course}) => {
     return (
-      <h1>{course.name}</h1>
+      <h2>{course.name}</h2>
     )
   }
   
@@ -27,7 +27,7 @@
       return initial + part.exercises
     },0)
     return(
-      <p>Number of exercises {totalExercises}</p>
+      <p><b>Total of {totalExercises} exercises</b></p>
     ) 
   }
 
